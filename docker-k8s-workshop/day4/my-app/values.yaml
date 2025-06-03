@@ -1,14 +1,14 @@
-replicaCount: 3
+replicaCount: 5
 
 image:
-  repository: jaindivyanshu013/hello-node-docker
+  repository: jaindivyanshu013/day1-image
   tag: day1
   pullPolicy: Always
 
 service:
   type: NodePort
   port: 8080
-  nodePort: 30080
+  nodePort: 30081
 
 containerPort: 8080
 
