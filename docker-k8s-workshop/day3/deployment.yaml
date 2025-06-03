@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: jaindivyanshu013/day3
+        image: jaindivyanshu013/day1-image
         ports:
         - containerPort: 8080

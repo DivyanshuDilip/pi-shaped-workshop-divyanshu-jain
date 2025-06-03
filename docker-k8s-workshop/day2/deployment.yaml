@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name:   day1-container
-        image: jaindivyanshu013/day1
+        image: jaindivyanshu013/day1-image
         ports:
         - containerPort: 8080
         resources:
